@@ -1,0 +1,523 @@
+{
+  "jd_id": "frontend_dev",
+  "role": "Frontend Developer",
+  "slots": 8,
+  "cutoff": 40.0,
+  "candidates_evaluated": 5,
+  "slots_filled_note": "Only 3/8 slots filled \u2014 fewer eligible candidates than slots.",
+  "shortlist": [
+    {
+      "rank": 1,
+      "doc_id": "sample1",
+      "file": "sample1.txt",
+      "parse_quality": "Partial",
+      "score": 54.0,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 25.0,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (6 total): 3 partial, 1 synonym, 2 implicit \u2014 credit-weighted 3.00/6 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 25.0/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 5.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 2 missing, 2 partial \u2014 credit-weighted 1.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 5.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.32 [normalized from percentage] meets minimum 6.5 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 11.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate shows strong full-stack capability with a relevant real-time chat application and professional software engineering experience.",
+          "meta": {
+            "justification": "The candidate shows strong full-stack capability with a relevant real-time chat application and professional software engineering experience.",
+            "signals": [
+              "Real-time chat application",
+              "WebSockets/Redis",
+              "Software Engineer experience"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 3.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The strong project experience and high CGPA suggest practical competence that outweighs the lower score in the specific skill-tier matching.",
+          "meta": {
+            "reason": "The strong project experience and high CGPA suggest practical competence that outweighs the lower score in the specific skill-tier matching.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "HTML",
+          "tier": "partial",
+          "matched_against": "React",
+          "evidence": "React",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "CSS",
+          "tier": "partial",
+          "matched_against": "React",
+          "evidence": "React",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "JavaScript",
+          "tier": "partial",
+          "matched_against": "React",
+          "evidence": "React",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "React.js or Next.js",
+          "tier": "synonym",
+          "matched_against": "React",
+          "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Git/GitHub",
+          "tier": "implicit",
+          "matched_against": "Software Engineer, Acme Corp, Jun 2021 - Present",
+          "evidence": "Software Engineer, Acme Corp, Jun 2021 - Present",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "REST API consumption",
+          "tier": "implicit",
+          "matched_against": "Resume Parser - Built a resume parsing tool using spaCy and FastAPI to extract structured fields from unstructured text.",
+          "evidence": "Resume Parser - Built a resume parsing tool using spaCy and FastAPI to extract structured fields from unstructured text.",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "TypeScript",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Redux/Zustand",
+          "tier": "partial",
+          "matched_against": "React",
+          "evidence": "React",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Responsive design",
+          "tier": "partial",
+          "matched_against": "React",
+          "evidence": "React",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Jest",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "Required skills were only partially met, with the breakdown showing 3 partial and 2 implicit skills.",
+        "The candidate shows strong full-stack capability, evidenced by a relevant real-time chat application and professional experience.",
+        "A positive holistic adjustment was applied because strong project experience and high CGPA outweigh lower skill-tier matching."
+      ],
+      "anomalies": [],
+      "error": null
+    },
+    {
+      "rank": 2,
+      "doc_id": "sample2",
+      "file": "sample2.xml",
+      "parse_quality": "Partial",
+      "score": 19.17,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 4.17,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (6 total): 5 missing, 1 partial \u2014 credit-weighted 0.50/6 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 4.17/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 0.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 4 missing \u2014 credit-weighted 0.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.4 meets minimum 6.5 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 5.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate has experience building an IoT system, but lacks professional experience and the projects are not focused on frontend web development.",
+          "meta": {
+            "justification": "The candidate has experience building an IoT system, but lacks professional experience and the projects are not focused on frontend web development.",
+            "signals": [
+              "IoT weather station",
+              "ESP32/MQTT"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The candidate's low scores in required skills and projects are justified by the lack of frontend focus and relevant experience.",
+          "meta": {
+            "reason": "The candidate's low scores in required skills and projects are justified by the lack of frontend focus and relevant experience.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "HTML",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "CSS",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "JavaScript",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "React.js or Next.js",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Git/GitHub",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "REST API consumption",
+          "tier": "partial",
+          "matched_against": "IoT Weather Station\nBuilt a low-power IoT weather station using an ESP32 and MQTT.",
+          "evidence": "IoT Weather Station\nBuilt a low-power IoT weather station using an ESP32 and MQTT.",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "TypeScript",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Redux/Zustand",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Responsive design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Jest",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate achieved a full score for CGPA, meeting the minimum requirement.",
+        "The projects are limited to an IoT system and lack focus on frontend web development.",
+        "The low scores in required skills and projects are justified by the lack of frontend focus and relevant experience."
+      ],
+      "anomalies": [
+        "malformed_email:'rohit.verma@@bad-email'",
+        "graduation_year_out_of_range:2042"
+      ],
+      "error": null
+    },
+    {
+      "rank": 3,
+      "doc_id": "res2",
+      "file": "res2.pdf",
+      "parse_quality": "Partial",
+      "score": 18.33,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 8.33,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (6 total): 5 missing, 1 exact \u2014 credit-weighted 1.00/6 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 8.33/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 0.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 4 missing \u2014 credit-weighted 0.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 0.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA not found on resume -> 0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 10.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate demonstrates strong technical depth and real-world experience, though the projects are heavily focused on AI/backend rather than frontend development.",
+          "meta": {
+            "justification": "The candidate demonstrates strong technical depth and real-world experience, though the projects are heavily focused on AI/backend rather than frontend development.",
+            "signals": [
+              "Deployed system (Raspberry Pi)",
+              "AI Engineer experience",
+              "Chatbot development"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The breakdown accurately reflects a candidate whose experience is heavily focused on AI/backend rather than frontend development.",
+          "meta": {
+            "reason": "The breakdown accurately reflects a candidate whose experience is heavily focused on AI/backend rather than frontend development.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "HTML",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "CSS",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "JavaScript",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "React.js or Next.js",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Git/GitHub",
+          "tier": "exact",
+          "matched_against": "Git",
+          "evidence": "- Git, CI/CD for ML (GitHub Actions)",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "REST API consumption",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "TypeScript",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Redux/Zustand",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Responsive design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Jest",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate's required skills score is low due to 5 missing skills.",
+        "Projects show strong technical depth, but the focus is heavily on AI/backend rather than frontend.",
+        "The holistic adjustment reflects the experience being heavily focused on AI/backend."
+      ],
+      "anomalies": [],
+      "error": null
+    }
+  ],
+  "reserve": [],
+  "excluded": [
+    {
+      "rank": null,
+      "doc_id": "sample3",
+      "file": "sample3.unsupported",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:unsupported file extension: .unsupported"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "doc_id": "sample4_empty",
+      "file": "sample4_empty.txt",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:extracted text is empty"
+      ],
+      "error": null
+    }
+  ]
+}

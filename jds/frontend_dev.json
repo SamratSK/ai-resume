@@ -1,0 +1,20 @@
+{
+  "id": "frontend_dev",
+  "role": "Frontend Developer",
+  "required_skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js or Next.js",
+    "Git/GitHub",
+    "REST API consumption"
+  ],
+  "preferred_skills": [
+    "TypeScript",
+    "Redux/Zustand",
+    "Responsive design",
+    "Jest"
+  ],
+  "cgpa_min": 6.5,
+  "slots": 8
+}

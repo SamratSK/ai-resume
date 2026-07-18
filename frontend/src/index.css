@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: oklch(97.8% 0.012 255);
+  --color-surface: oklch(99.3% 0.006 255);
+  --color-surface-raised: oklch(100% 0 0);
+
+  --color-ink: oklch(25% 0.045 274);
+  --color-ink-soft: oklch(43% 0.035 270);
+  --color-ink-faint: oklch(59% 0.027 266);
+  --color-border: oklch(87.5% 0.026 270);
+  --color-border-soft: oklch(92.5% 0.018 265);
+
+  --color-lavender: oklch(72% 0.14 285);
+  --color-lavender-soft: oklch(92.5% 0.045 285);
+  --color-lavender-ink: oklch(38% 0.13 285);
+
+  --color-mint: oklch(78% 0.13 161);
+  --color-mint-soft: oklch(93% 0.055 161);
+  --color-mint-ink: oklch(34% 0.095 161);
+
+  --color-peach: oklch(78% 0.145 48);
+  --color-peach-soft: oklch(93.5% 0.065 48);
+  --color-peach-ink: oklch(39% 0.12 42);
+
+  --color-amber: oklch(84% 0.15 88);
+  --color-amber-soft: oklch(95% 0.065 88);
+  --color-amber-ink: oklch(42% 0.1 72);
+
+  --color-rose: oklch(74% 0.15 18);
+  --color-rose-soft: oklch(93.5% 0.06 18);
+  --color-rose-ink: oklch(42% 0.145 18);
+
+  --font-sans: "Avenir Next", "Nunito Sans", "Trebuchet MS", ui-rounded, system-ui, sans-serif;
+  --font-display: "Avenir Next", "Nunito Sans", "Trebuchet MS", ui-rounded, system-ui, sans-serif;
+
+  --shadow-soft: 0 2px 0 oklch(72% 0.14 285 / 0.12), 0 10px 30px oklch(46% 0.06 270 / 0.08);
+  --shadow-lifted: 0 4px 0 oklch(72% 0.14 285 / 0.14), 0 24px 56px oklch(46% 0.07 270 / 0.15);
+
+  --radius-xl: 0.5rem;
+  --radius-2xl: 0.5rem;
+
+  --z-dropdown: 20;
+  --z-sticky: 30;
+  --z-modal-backdrop: 40;
+  --z-modal: 50;
+  --z-toast: 60;
+  --z-tooltip: 70;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    background-image:
+      linear-gradient(oklch(72% 0.14 285 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(78% 0.13 161 / 0.035) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-sans);
+    font-weight: 750;
+    text-wrap: balance;
+    letter-spacing: 0;
+  }
+
+  button, a, input {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-lavender-soft);
+    color: var(--color-lavender-ink);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@keyframes source-pulse {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  45% { opacity: 0.85; transform: scale(1.025); }
+}
+
+.source-pulse {
+  animation: source-pulse 0.9s ease-in-out 2;
+}
+
+.resume-layout {
+  display: grid;
+  min-width: 0;
+  gap: 1.75rem;
+}
+
+.resume-divider {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .resume-layout {
+    grid-template-columns: minmax(0, var(--resume-left, 56%)) 10px minmax(320px, 1fr);
+    gap: 0;
+  }
+
+  .resume-fields {
+    padding-right: 1.5rem;
+  }
+
+  .resume-source {
+    padding-left: 1.5rem;
+  }
+
+  .resume-divider {
+    display: flex;
+    min-height: 20rem;
+    cursor: col-resize;
+    touch-action: none;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 8px;
+    background: transparent;
+  }
+
+  .resume-divider::after {
+    width: 2px;
+    border-radius: 999px;
+    background: var(--color-border);
+    content: "";
+    transition: transform 140ms ease, background 140ms ease;
+  }
+
+  .resume-divider:hover::after,
+  .resume-divider:focus-visible::after {
+    transform: scaleX(2.5);
+    background: var(--color-lavender);
+  }
+}
+
+@layer utilities {
+  .measure {
+    max-width: 68ch;
+  }
+}

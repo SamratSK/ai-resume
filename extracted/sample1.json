@@ -1,0 +1,218 @@
+{
+  "file": "sample1.txt",
+  "method": "text",
+  "parse_quality": "Partial",
+  "full_name": {
+    "raw_value": "Priya Sharma",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "Priya Sharma",
+    "assumption": null
+  },
+  "email": {
+    "raw_value": "priya.sharma1999@gmail.com",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "Email: priya.sharma1999@gmail.com",
+    "assumption": null
+  },
+  "phone": {
+    "raw_value": "+91-9876543210",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "Phone: +91-9876543210",
+    "assumption": null
+  },
+  "college": {
+    "raw_value": "Indian Institute of Technology (mock)",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "B.E. in Computer Science, Indian Institute of Technology (mock), 2021",
+    "assumption": null
+  },
+  "degree": {
+    "raw_value": "B.E. in Computer Science",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "B.E. in Computer Science, Indian Institute of Technology (mock), 2021",
+    "assumption": null
+  },
+  "branch": {
+    "raw_value": "Computer Science",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "B.E. in Computer Science, Indian Institute of Technology (mock), 2021",
+    "assumption": null
+  },
+  "graduation_year": {
+    "raw_value": "2021",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "B.E. in Computer Science, Indian Institute of Technology (mock), 2021",
+    "assumption": null
+  },
+  "cgpa": {
+    "raw_value": "79%",
+    "normalized_value": 8.32,
+    "scale": "cgpa_10",
+    "confidence": "high",
+    "evidence": "Scored 79% in B.E. Computer Science.",
+    "assumption": "interpreted source scale percentage; percentage divided by 9.5; normalized to 10-point CGPA"
+  },
+  "skills": [
+    {
+      "raw_value": "Python",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+      "assumption": null
+    },
+    {
+      "raw_value": "Java",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+      "assumption": null
+    },
+    {
+      "raw_value": "React",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+      "assumption": null
+    },
+    {
+      "raw_value": "Docker",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+      "assumption": null
+    },
+    {
+      "raw_value": "Kubernetes",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+      "assumption": null
+    },
+    {
+      "raw_value": "PostgreSQL",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+      "assumption": null
+    },
+    {
+      "raw_value": "AWS",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+      "assumption": null
+    },
+    {
+      "raw_value": "spaCy",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Built a resume parsing tool using spaCy and FastAPI to extract structured fields from unstructured text.",
+      "assumption": null
+    },
+    {
+      "raw_value": "FastAPI",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Built a resume parsing tool using spaCy and FastAPI to extract structured fields from unstructured text.",
+      "assumption": null
+    },
+    {
+      "raw_value": "WebSockets",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Real-time chat application using WebSockets and Redis for presence tracking.",
+      "assumption": null
+    },
+    {
+      "raw_value": "Redis",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Real-time chat application using WebSockets and Redis for presence tracking.",
+      "assumption": null
+    }
+  ],
+  "projects": [
+    {
+      "title": "Resume Parser",
+      "one_liner": "Built a resume parsing tool using spaCy and FastAPI to extract structured fields from unstructured text.",
+      "evidence": "Resume Parser - Built a resume parsing tool using spaCy and FastAPI to extract structured fields from unstructured text.",
+      "confidence": "high"
+    },
+    {
+      "title": "Chat App",
+      "one_liner": "Real-time chat application using WebSockets and Redis for presence tracking.",
+      "evidence": "Chat App - Real-time chat application using WebSockets and Redis for presence tracking.",
+      "confidence": "high"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Acme Corp",
+      "role": "Software Engineer",
+      "duration": "Jun 2021 - Present",
+      "evidence": "Software Engineer, Acme Corp, Jun 2021 - Present",
+      "confidence": "high"
+    },
+    {
+      "company": "Beta Labs",
+      "role": "Backend Intern",
+      "duration": "Jan 2021 - May 2021",
+      "evidence": "Backend Intern, Beta Labs, Jan 2021 - May 2021",
+      "confidence": "high"
+    }
+  ],
+  "certifications": [
+    {
+      "raw_value": "AWS Certified Solutions Architect - Associate",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "AWS Certified Solutions Architect - Associate",
+      "assumption": null
+    },
+    {
+      "raw_value": "Certified Kubernetes Administrator",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Certified Kubernetes Administrator",
+      "assumption": null
+    }
+  ],
+  "additional_fields": [
+    {
+      "field_name": "LinkedIn URL",
+      "raw_value": "linkedin.com/in/priyasharma",
+      "normalized_value": null,
+      "data_type": "URL",
+      "confidence": "high",
+      "evidence": "LinkedIn: linkedin.com/in/priyasharma"
+    }
+  ],
+  "anomalies": []
+}

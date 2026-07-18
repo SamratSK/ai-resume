@@ -1,0 +1,151 @@
+{
+  "file": "sample2.xml",
+  "method": "xml",
+  "parse_quality": "Partial",
+  "full_name": {
+    "raw_value": "Rohit Verma",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "Rohit Verma",
+    "assumption": null
+  },
+  "email": {
+    "raw_value": "rohit.verma@@bad-email",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "rohit.verma@@bad-email",
+    "assumption": null
+  },
+  "phone": {
+    "raw_value": "9123456780",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "9123456780",
+    "assumption": null
+  },
+  "college": {
+    "raw_value": "National Institute of Technology (mock)",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "National Institute of Technology (mock)",
+    "assumption": null
+  },
+  "degree": {
+    "raw_value": "B.Tech",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "B.Tech",
+    "assumption": null
+  },
+  "branch": {
+    "raw_value": "Electronics and Communication",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "Electronics and Communication",
+    "assumption": null
+  },
+  "graduation_year": {
+    "raw_value": "2042",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "2042",
+    "assumption": null
+  },
+  "cgpa": {
+    "raw_value": "eight point four",
+    "normalized_value": 8.4,
+    "scale": "cgpa_10",
+    "confidence": "high",
+    "evidence": "eight point four",
+    "assumption": "interpreted as cgpa_10 from raw text"
+  },
+  "skills": [
+    {
+      "raw_value": "C++",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "C++, Verilog, Embedded C, MATLAB, Linux",
+      "assumption": null
+    },
+    {
+      "raw_value": "Verilog",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "C++, Verilog, Embedded C, MATLAB, Linux",
+      "assumption": null
+    },
+    {
+      "raw_value": "Embedded C",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "C++, Verilog, Embedded C, MATLAB, Linux",
+      "assumption": null
+    },
+    {
+      "raw_value": "MATLAB",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "C++, Verilog, Embedded C, MATLAB, Linux",
+      "assumption": null
+    },
+    {
+      "raw_value": "Linux",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "C++, Verilog, Embedded C, MATLAB, Linux",
+      "assumption": null
+    },
+    {
+      "raw_value": "ESP32",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Built a low-power IoT weather station using an ESP32 and MQTT.",
+      "assumption": null
+    },
+    {
+      "raw_value": "MQTT",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Built a low-power IoT weather station using an ESP32 and MQTT.",
+      "assumption": null
+    }
+  ],
+  "projects": [
+    {
+      "title": "IoT Weather Station",
+      "one_liner": "Built a low-power IoT weather station using an ESP32 and MQTT.",
+      "evidence": "IoT Weather Station\nBuilt a low-power IoT weather station using an ESP32 and MQTT.",
+      "confidence": "high"
+    }
+  ],
+  "experience": [],
+  "certifications": [
+    {
+      "raw_value": "NPTEL - Embedded Systems",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "NPTEL - Embedded Systems",
+      "assumption": null
+    }
+  ],
+  "additional_fields": [],
+  "anomalies": [
+    "malformed_email:'rohit.verma@@bad-email'",
+    "graduation_year_out_of_range:2042"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "file": "res2.pdf",
+  "method": "docling",
+  "parse_quality": "Partial",
+  "full_name": {
+    "raw_value": "Ananya Subramanian",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "## Ananya Subramanian",
+    "assumption": null
+  },
+  "email": {
+    "raw_value": "ananya.subramanian@outlook.com",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "Chennai, India  |  +91 91234 56780  |  ananya.subramanian@outlook.com",
+    "assumption": null
+  },
+  "phone": {
+    "raw_value": "+91 91234 56780",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "Chennai, India  |  +91 91234 56780  |  ananya.subramanian@outlook.com",
+    "assumption": null
+  },
+  "college": {
+    "raw_value": "Anna University",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "## B.E, Information Technology - Anna University",
+    "assumption": null
+  },
+  "degree": {
+    "raw_value": "B.E, Information Technology",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "## B.E, Information Technology - Anna University",
+    "assumption": null
+  },
+  "branch": {
+    "raw_value": "Information Technology",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "## B.E, Information Technology - Anna University",
+    "assumption": null
+  },
+  "graduation_year": {
+    "raw_value": "2022",
+    "normalized_value": null,
+    "scale": null,
+    "confidence": "high",
+    "evidence": "2018 - 2022",
+    "assumption": null
+  },
+  "cgpa": null,
+  "skills": [
+    {
+      "raw_value": "Python",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Python, NumPy, OpenCV",
+      "assumption": null
+    },
+    {
+      "raw_value": "NumPy",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Python, NumPy, OpenCV",
+      "assumption": null
+    },
+    {
+      "raw_value": "OpenCV",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Python, NumPy, OpenCV",
+      "assumption": null
+    },
+    {
+      "raw_value": "Convolutional Neural Networks (CNNs)",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Convolutional Neural Networks (CNNs)",
+      "assumption": null
+    },
+    {
+      "raw_value": "TensorFlow",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- TensorFlow, Keras",
+      "assumption": null
+    },
+    {
+      "raw_value": "Keras",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- TensorFlow, Keras",
+      "assumption": null
+    },
+    {
+      "raw_value": "Speech-to-text & NLP pipelines",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Speech-to-text &amp; NLP pipelines",
+      "assumption": null
+    },
+    {
+      "raw_value": "Model optimization (ONNX, quantization)",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Model optimization (ONNX, quantization)",
+      "assumption": null
+    },
+    {
+      "raw_value": "Git",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Git, CI/CD for ML (GitHub Actions)",
+      "assumption": null
+    },
+    {
+      "raw_value": "GitHub Actions",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Git, CI/CD for ML (GitHub Actions)",
+      "assumption": null
+    },
+    {
+      "raw_value": "Azure ML",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Cloud ML (Azure ML, GCP Vertex AI)",
+      "assumption": null
+    },
+    {
+      "raw_value": "GCP Vertex AI",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Cloud ML (Azure ML, GCP Vertex AI)",
+      "assumption": null
+    },
+    {
+      "raw_value": "spaCy",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Built an intent-classification chatbot using spaCy and Rasa",
+      "assumption": null
+    },
+    {
+      "raw_value": "Rasa",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "Built an intent-classification chatbot using spaCy and Rasa",
+      "assumption": null
+    }
+  ],
+  "projects": [
+    {
+      "title": "Smart Attendance System",
+      "one_liner": "Face-recognition based attendance system using OpenCV and a custom-trained CNN, deployed on Raspberry Pi",
+      "evidence": "Smart Attendance System\n\nFace-recognition based attendance system using OpenCV and a custom-trained CNN, deployed on Raspberry Pi",
+      "confidence": "high"
+    },
+    {
+      "title": "Chat Assistant for Healthcare FAQs",
+      "one_liner": "Built an intent-classification chatbot using spaCy and Rasa for a clinic's patient queries",
+      "evidence": "Chat Assistant for Healthcare FAQs\n\nBuilt an intent-classification chatbot using spaCy and Rasa for a clinic's patient queries",
+      "confidence": "high"
+    }
+  ],
+  "experience": [
+    {
+      "company": "VisionEdge Labs",
+      "role": "AI Engineer",
+      "duration": "Jan 2022 - Present",
+      "evidence": "## AI Engineer - VisionEdge Labs\n\nJan 2022 - Present",
+      "confidence": "high"
+    },
+    {
+      "company": "Quantica Insights",
+      "role": "Data Science Intern",
+      "duration": "May 2021 - Dec 2021",
+      "evidence": "## Data Science Intern - Quantica Insights\n\nMay 2021 - Dec 2021",
+      "confidence": "high"
+    }
+  ],
+  "certifications": [
+    {
+      "raw_value": "Coursera - Deep Learning Specialization (Andrew Ng)",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- Coursera - Deep Learning Specialization (Andrew Ng)",
+      "assumption": null
+    },
+    {
+      "raw_value": "NPTEL - Computer Vision",
+      "normalized_value": null,
+      "scale": null,
+      "confidence": "high",
+      "evidence": "- NPTEL - Computer Vision",
+      "assumption": null
+    }
+  ],
+  "additional_fields": [
+    {
+      "field_name": "LinkedIn URL",
+      "raw_value": "linkedin.com/in/ananya-subramanian",
+      "normalized_value": null,
+      "data_type": "URL",
+      "confidence": "high",
+      "evidence": "Chennai, India  |  +91 91234 56780  |  ananya.subramanian@outlook.com  |  linkedin.com/in/ananya-subramanian"
+    }
+  ],
+  "anomalies": []
+}

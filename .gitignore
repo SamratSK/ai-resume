@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and generated files
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+
+# Runtime state
+cache/
+chroma/
+uploads/
+.stability_test_runs/
+
+# Local agent/editor configuration
+.agents/
+.claude/
+.codex/
+.gemini/
+.impeccable/
+frontend/.impeccable/
+
+# Local-only and confidential files
+prob.pdf
+/res2.pdf
+/package.json
+/requirements-prompts-4-5.txt
+*.log
+.DS_Store

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+  <name>Rohit Verma</name>
+  <contact>
+    <email>rohit.verma@@bad-email</email>
+    <phone>9123456780</phone>
+  </contact>
+  <education>
+    <college>National Institute of Technology (mock)</college>
+    <degree>B.Tech</degree>
+    <branch>Electronics and Communication</branch>
+    <graduation_year>2042</graduation_year>
+    <cgpa>eight point four</cgpa>
+  </education>
+  <skills>C++, Verilog, Embedded C, MATLAB, Linux</skills>
+  <projects>
+    <project>
+      <title>IoT Weather Station</title>
+      <description>Built a low-power IoT weather station using an ESP32 and MQTT.</description>
+    </project>
+  </projects>
+  <certifications>
+    <cert>NPTEL - Embedded Systems</cert>
+  </certifications>
+</resume>

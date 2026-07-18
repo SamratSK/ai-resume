@@ -1,0 +1,469 @@
+{
+  "jd_id": "backend_dev",
+  "role": "Backend Developer",
+  "slots": 10,
+  "cutoff": 40.0,
+  "candidates_evaluated": 5,
+  "slots_filled_note": "Only 3/10 slots filled \u2014 fewer eligible candidates than slots.",
+  "shortlist": [
+    {
+      "rank": 1,
+      "doc_id": "sample1",
+      "file": "sample1.txt",
+      "parse_quality": "Partial",
+      "score": 56.38,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 21.88,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (4 total): 1 exact, 1 implicit, 1 partial, 1 missing \u2014 credit-weighted 1.75/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 21.88/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 7.5,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 1 exact, 2 missing, 1 partial \u2014 credit-weighted 1.50/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 7.5/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.32 meets minimum 6.5 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 14.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate has strong, relevant backend experience demonstrated by projects using FastAPI and real-time technologies, complemented by professional roles.",
+          "meta": {
+            "justification": "The candidate has strong, relevant backend experience demonstrated by projects using FastAPI and real-time technologies, complemented by professional roles.",
+            "signals": [
+              "FastAPI",
+              "WebSockets/Redis",
+              "Software Engineer experience"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 3.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The strong practical experience and high project score, featuring relevant technologies like FastAPI, outweigh the lower specific skill-tier match scores.",
+          "meta": {
+            "reason": "The strong practical experience and high project score, featuring relevant technologies like FastAPI, outweigh the lower specific skill-tier match scores.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "Node.js/Python/Java",
+          "tier": "exact",
+          "matched_against": "Python",
+          "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "REST API design",
+          "tier": "implicit",
+          "matched_against": "FastAPI",
+          "evidence": "FastAPI",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "SQL or NoSQL DB",
+          "tier": "partial",
+          "matched_against": "PostgreSQL",
+          "evidence": "PostgreSQL",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Git/GitHub",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "Docker",
+          "tier": "exact",
+          "matched_against": "Docker",
+          "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "JWT/OAuth",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "API docs",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Cloud basics",
+          "tier": "partial",
+          "matched_against": "AWS",
+          "evidence": "AWS",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate demonstrated strong, relevant backend experience using FastAPI and real-time technologies.",
+        "The CGPA of 8.32 meets the minimum requirement, earning full points.",
+        "Lower specific skill-tier match scores were noted, though they were outweighed by strong practical experience."
+      ],
+      "anomalies": [],
+      "error": null
+    },
+    {
+      "rank": 2,
+      "doc_id": "res2",
+      "file": "res2.pdf",
+      "parse_quality": "Partial",
+      "score": 43.5,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 25.0,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (4 total): 2 exact, 2 missing \u2014 credit-weighted 2.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 25.0/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 2.5,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 3 missing, 1 partial \u2014 credit-weighted 0.50/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 2.5/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 0.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA not found on resume -> 0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 14.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate demonstrates strong backend skills through deployed ML/AI systems and relevant industry experience.",
+          "meta": {
+            "justification": "The candidate demonstrates strong backend skills through deployed ML/AI systems and relevant industry experience.",
+            "signals": [
+              "deployed on Raspberry Pi",
+              "Rasa/spaCy chatbot",
+              "AI Engineer experience"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 2.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The strong practical experience in deployed ML/AI systems significantly compensates for the missing CGPA and incomplete skill set.",
+          "meta": {
+            "reason": "The strong practical experience in deployed ML/AI systems significantly compensates for the missing CGPA and incomplete skill set.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "Node.js/Python/Java",
+          "tier": "exact",
+          "matched_against": "Python",
+          "evidence": "- Python, NumPy, OpenCV",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "REST API design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "SQL or NoSQL DB",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Git/GitHub",
+          "tier": "exact",
+          "matched_against": "Git",
+          "evidence": "- Git, CI/CD for ML (GitHub Actions)",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "Docker",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "JWT/OAuth",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "API docs",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Cloud basics",
+          "tier": "partial",
+          "matched_against": "Azure ML",
+          "evidence": "Azure ML",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "Strong practical experience in deployed ML/AI systems and relevant industry experience was noted.",
+        "The candidate scored zero on CGPA as it was not found on the resume.",
+        "The strong practical experience helped compensate for the missing CGPA and incomplete skill set."
+      ],
+      "anomalies": [],
+      "error": null
+    },
+    {
+      "rank": 3,
+      "doc_id": "sample2",
+      "file": "sample2.xml",
+      "parse_quality": "Partial",
+      "score": 17.0,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 0.0,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (4 total): 4 missing \u2014 credit-weighted 0.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 0.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 4 missing \u2014 credit-weighted 0.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.4 meets minimum 6.5 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 7.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate shows relevant IoT experience, but lacks depth signals and breadth compared to the other candidates.",
+          "meta": {
+            "justification": "The candidate shows relevant IoT experience, but lacks depth signals and breadth compared to the other candidates.",
+            "signals": [
+              "IoT Weather Station",
+              "MQTT"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "While the CGPA is excellent, the candidate scores zero on required and preferred backend skills, indicating a significant gap in technical knowledge.",
+          "meta": {
+            "reason": "While the CGPA is excellent, the candidate scores zero on required and preferred backend skills, indicating a significant gap in technical knowledge.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "Node.js/Python/Java",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "REST API design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "SQL or NoSQL DB",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Git/GitHub",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "Docker",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "JWT/OAuth",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "API docs",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Cloud basics",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate scored full points for CGPA, meeting the minimum requirement.",
+        "The candidate scored zero on both required and preferred backend skills due to four missing skills in each category.",
+        "The projects/experience were noted as relevant IoT experience but lacked depth and breadth compared to others."
+      ],
+      "anomalies": [
+        "malformed_email:'rohit.verma@@bad-email'",
+        "graduation_year_out_of_range:2042"
+      ],
+      "error": null
+    }
+  ],
+  "reserve": [],
+  "excluded": [
+    {
+      "rank": null,
+      "doc_id": "sample3",
+      "file": "sample3.unsupported",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:unsupported file extension: .unsupported"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "doc_id": "sample4_empty",
+      "file": "sample4_empty.txt",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:extracted text is empty"
+      ],
+      "error": null
+    }
+  ]
+}

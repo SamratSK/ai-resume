@@ -1,0 +1,44 @@
+# Stage 2 scoring engine configuration.
+# Every weight, rubric bound, and cutoff used anywhere in scoring lives here —
+# nothing of that kind is hardcoded in the Python modules.
+
+model:
+  base_url: http://127.0.0.1:8080/v1
+  model: local
+  timeout_seconds: 180
+  max_retries: 1
+  temperature: 0.0
+  batch_size: 10   # candidates grouped per LLM call (skill tiers, project score, adjustment, bullets)
+
+weights:
+  required_skills_points: 50
+  preferred_skills_points: 20
+  cgpa_points: 10
+  projects_experience_points: 15
+  holistic_adjustment_max: 5   # applied as -5..+5
+
+tier_credits:
+  exact: 1.0
+  synonym: 1.0
+  partial: 0.5
+  implicit: 0.25
+  missing: 0.0
+
+cgpa:
+  # Linear scale: cgpa_points at cgpa_min, 0 at (cgpa_min - scale_window).
+  scale_window: 2.0
+
+projects_experience_rubric:
+  relevance_max: 6      # relevance of projects to the JD role
+  depth_max: 6           # deployment/real-users/internship-at-real-company signals
+  breadth_max: 3          # breadth / initiative
+  total_max: 15
+
+shortlist:
+  score_cutoff: 40   # candidates at/above this (but outside the slot count) go to Reserve
+
+paths:
+  resumes_dir: extracted
+  jds_dir: jds
+  output_dir: output
+  cache_dir: cache

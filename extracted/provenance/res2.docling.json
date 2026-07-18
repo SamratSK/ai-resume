@@ -1,0 +1,1158 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "res2",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 2414842866971967629,
+    "filename": "res2.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/33"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 203.85,
+            "t": 755.35,
+            "r": 408.1699999999999,
+            "b": 733.03,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Ananya Subramanian",
+      "text": "Ananya Subramanian",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 257.1,
+            "t": 731.5649999999999,
+            "r": 353.85900000000015,
+            "b": 717.0569999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "AI/ML Developer",
+      "text": "AI/ML Developer"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.65,
+            "t": 712.6975,
+            "r": 545.2219999999999,
+            "b": 702.0955,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "Chennai, India  |  +91 91234 56780  |  ananya.subramanian@outlook.com  |  linkedin.com/in/ananya-subramanian",
+      "text": "Chennai, India  |  +91 91234 56780  |  ananya.subramanian@outlook.com  |  linkedin.com/in/ananya-subramanian"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 684.46,
+            "r": 204.96399999999997,
+            "b": 671.068,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "PROFESSIONAL SUMMARY",
+      "text": "PROFESSIONAL SUMMARY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 662.9525000000001,
+            "r": 521.0125000000005,
+            "b": 639.1345,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "Detail-oriented AI Developer focused on computer vision and conversational AI systems, with a strong foundation in applied mathematics.",
+      "text": "Detail-oriented AI Developer focused on computer vision and conversational AI systems, with a strong foundation in applied mathematics."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 626.71,
+            "r": 87.712,
+            "b": 613.318,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "SKILLS",
+      "text": "SKILLS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 605.2025000000001,
+            "r": 182.0545,
+            "b": 593.4845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "\u00b7 Python, NumPy, OpenCV",
+      "text": "Python, NumPy, OpenCV",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 590.1025000000001,
+            "r": 245.06499999999988,
+            "b": 578.3845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "\u00b7 Convolutional Neural Networks (CNNs)",
+      "text": "Convolutional Neural Networks (CNNs)",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 575.0025,
+            "r": 151.153,
+            "b": 563.2845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "\u00b7 TensorFlow, Keras",
+      "text": "TensorFlow, Keras",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 559.9025,
+            "r": 208.9029999999999,
+            "b": 548.1845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "\u00b7 Speech-to-text & NLP pipelines",
+      "text": "Speech-to-text & NLP pipelines",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 544.8025,
+            "r": 253.22349999999992,
+            "b": 533.0844999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "\u00b7 Model optimization (ONNX, quantization)",
+      "text": "Model optimization (ONNX, quantization)",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 529.7025000000001,
+            "r": 223.39299999999997,
+            "b": 517.9845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "\u00b7 Git, CI/CD for ML (GitHub Actions)",
+      "text": "Git, CI/CD for ML (GitHub Actions)",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 514.6025000000001,
+            "r": 237.43149999999994,
+            "b": 502.8845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "\u00b7 Cloud ML (Azure ML, GCP Vertex AI)",
+      "text": "Cloud ML (Azure ML, GCP Vertex AI)",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 490.46000000000004,
+            "r": 163.65999999999997,
+            "b": 477.06800000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "WORK EXPERIENCE",
+      "text": "WORK EXPERIENCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 468.955,
+            "r": 211.76100000000005,
+            "b": 456.679,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "AI Engineer - VisionEdge Labs",
+      "text": "AI Engineer - VisionEdge Labs",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 410.95,
+            "t": 468.05,
+            "r": 495.38999999999993,
+            "b": 456.89,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Jan 2022 - Present",
+      "text": "Jan 2022 - Present"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 455.3025,
+            "r": 546.6460000000008,
+            "b": 443.5845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "\u00b7 Designed a defect-detection CV model for manufacturing line cameras, reducing false negatives by 22%",
+      "text": "Designed a defect-detection CV model for manufacturing line cameras, reducing false negatives by 22%",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 440.2025,
+            "r": 501.70600000000064,
+            "b": 428.48449999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "\u00b7 Optimized inference latency from 400ms to 90ms using model quantization and ONNX runtime",
+      "text": "Optimized inference latency from 400ms to 90ms using model quantization and ONNX runtime",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 425.1025,
+            "r": 434.5480000000003,
+            "b": 413.3845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "\u00b7 Built a voice-assistant module integrating Whisper STT with a custom NLU layer",
+      "text": "Built a voice-assistant module integrating Whisper STT with a custom NLU layer",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 408.005,
+            "r": 256.3880000000001,
+            "b": 395.729,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "Data Science Intern - Quantica Insights",
+      "text": "Data Science Intern - Quantica Insights",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 399.85,
+            "t": 407.1,
+            "r": 495.40999999999997,
+            "b": 395.94,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "May 2021 - Dec 2021",
+      "text": "May 2021 - Dec 2021"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 394.3525,
+            "r": 411.3325000000003,
+            "b": 382.6345,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "\u00b7 Built dashboards summarizing model performance metrics for stakeholders",
+      "text": "Built dashboards summarizing model performance metrics for stakeholders",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 379.2525,
+            "r": 411.6265000000005,
+            "b": 367.5345,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "\u00b7 Cleaned and labeled image datasets of 50K+ samples for training pipelines",
+      "text": "Cleaned and labeled image datasets of 50K+ samples for training pipelines",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 355.11,
+            "r": 109.72000000000001,
+            "b": 341.718,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "PROJECTS",
+      "text": "PROJECTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 333.6025,
+            "r": 175.14249999999996,
+            "b": 321.8845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Smart Attendance System",
+      "text": "Smart Attendance System",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 320.5,
+            "r": 545.6200000000001,
+            "b": 309.34,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "Face-recognition based attendance system using OpenCV and a custom-trained CNN, deployed on Raspberry Pi",
+      "text": "Face-recognition based attendance system using OpenCV and a custom-trained CNN, deployed on Raspberry Pi"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 305.0025,
+            "r": 222.93849999999995,
+            "b": 293.2845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Chat Assistant for Healthcare FAQs",
+      "text": "Chat Assistant for Healthcare FAQs",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 291.90000000000003,
+            "r": 427.49000000000007,
+            "b": 280.74,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "Built an intent-classification chatbot using spaCy and Rasa for a clinic's patient queries",
+      "text": "Built an intent-classification chatbot using spaCy and Rasa for a clinic's patient queries"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 268.36,
+            "r": 116.38000000000001,
+            "b": 254.96799999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EDUCATION",
+      "text": "EDUCATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 246.85249999999996,
+            "r": 284.0485000000001,
+            "b": 235.1345,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "B.E, Information Technology - Anna University",
+      "text": "B.E, Information Technology - Anna University",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.1,
+            "t": 222.71000000000004,
+            "r": 145.66,
+            "b": 209.31799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "CERTIFICATIONS",
+      "text": "CERTIFICATIONS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 201.2025,
+            "r": 313.92400000000004,
+            "b": 189.48450000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "\u00b7 Coursera - Deep Learning Specialization (Andrew Ng)",
+      "text": "Coursera - Deep Learning Specialization (Andrew Ng)",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.6,
+            "t": 186.10249999999996,
+            "r": 183.78699999999995,
+            "b": 174.3845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "\u00b7 NPTEL - Computer Vision",
+      "text": "NPTEL - Computer Vision",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 442.05,
+            "t": 246.39999999999998,
+            "r": 495.4,
+            "b": 235.24,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "2018 - 2022",
+      "text": "2018 - 2022"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "file": "sample4_empty.txt",
+  "method": "text",
+  "parse_quality": "Failed",
+  "full_name": null,
+  "email": null,
+  "phone": null,
+  "college": null,
+  "degree": null,
+  "branch": null,
+  "graduation_year": null,
+  "cgpa": null,
+  "skills": [],
+  "projects": [],
+  "experience": [],
+  "certifications": [],
+  "additional_fields": [],
+  "anomalies": [
+    "parse_failed:extracted text is empty"
+  ]
+}

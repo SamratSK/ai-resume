@@ -1,0 +1,18 @@
+{
+  "id": "backend_dev",
+  "role": "Backend Developer",
+  "required_skills": [
+    "Node.js/Python/Java",
+    "REST API design",
+    "SQL or NoSQL DB",
+    "Git/GitHub"
+  ],
+  "preferred_skills": [
+    "Docker",
+    "JWT/OAuth",
+    "API docs",
+    "Cloud basics"
+  ],
+  "cgpa_min": 6.5,
+  "slots": 10
+}

@@ -1,0 +1,469 @@
+{
+  "jd_id": "api_integration_dev",
+  "role": "API Integration Developer",
+  "slots": 2,
+  "cutoff": 40.0,
+  "candidates_evaluated": 5,
+  "slots_filled_note": null,
+  "shortlist": [
+    {
+      "rank": 1,
+      "doc_id": "sample1",
+      "file": "sample1.txt",
+      "parse_quality": "Partial",
+      "score": 46.5,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 18.75,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (4 total): 2 partial, 2 implicit \u2014 credit-weighted 1.50/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 18.75/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 3.75,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 2 missing, 1 partial, 1 implicit \u2014 credit-weighted 0.75/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 3.75/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.32 [normalized from percentage] meets minimum 6.0 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 14.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate shows excellent relevance by building an API using FastAPI and implementing real-time backend communication.",
+          "meta": {
+            "justification": "The candidate shows excellent relevance by building an API using FastAPI and implementing real-time backend communication.",
+            "signals": [
+              "FastAPI implementation",
+              "Real-time backend (WebSockets/Redis)",
+              "Professional experience (Software Engineer)"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The candidate demonstrates strong alignment across skills, high CGPA, and highly relevant API development projects.",
+          "meta": {
+            "reason": "The candidate demonstrates strong alignment across skills, high CGPA, and highly relevant API development projects.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "REST API consumption",
+          "tier": "partial",
+          "matched_against": "FastAPI",
+          "evidence": "FastAPI",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Postman or Swagger",
+          "tier": "implicit",
+          "matched_against": "FastAPI",
+          "evidence": "FastAPI",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "JSON handling",
+          "tier": "implicit",
+          "matched_against": "FastAPI",
+          "evidence": "FastAPI",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Any backend language",
+          "tier": "partial",
+          "matched_against": "Python",
+          "evidence": "Python",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "OAuth or API key auth",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Webhook handling",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Third-party SDK integration",
+          "tier": "partial",
+          "matched_against": "spaCy",
+          "evidence": "spaCy",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "API documentation writing",
+          "tier": "implicit",
+          "matched_against": "FastAPI",
+          "evidence": "FastAPI",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate achieved full points for CGPA, meeting the minimum requirement.",
+        "Excellent relevance was shown by building an API using FastAPI and implementing real-time backend communication.",
+        "Skill matching was strong, with 2 partial and 2 implicit required skills identified."
+      ],
+      "anomalies": [],
+      "error": null
+    },
+    {
+      "rank": 2,
+      "doc_id": "res2",
+      "file": "res2.pdf",
+      "parse_quality": "Partial",
+      "score": 30.0,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 12.5,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (4 total): 2 implicit, 1 missing, 1 partial \u2014 credit-weighted 1.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 12.5/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 2.5,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 3 missing, 1 partial \u2014 credit-weighted 0.50/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 2.5/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 0.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA not found on resume -> 0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 13.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "This candidate demonstrates strong relevance through deployed systems and professional experience in AI engineering.",
+          "meta": {
+            "justification": "This candidate demonstrates strong relevance through deployed systems and professional experience in AI engineering.",
+            "signals": [
+              "Deployed system (Raspberry Pi)",
+              "Chatbot integration (Rasa/spaCy)",
+              "Professional experience (AI Engineer)"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 2.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The strong practical experience as an AI Engineer and deployed systems suggest relevant integration skills despite lower mechanical scores.",
+          "meta": {
+            "reason": "The strong practical experience as an AI Engineer and deployed systems suggest relevant integration skills despite lower mechanical scores.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "REST API consumption",
+          "tier": "implicit",
+          "matched_against": "Chat Assistant for Healthcare FAQs",
+          "evidence": "Built an intent-classification chatbot using spaCy and Rasa for a clinic's patient queries",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Postman or Swagger",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "JSON handling",
+          "tier": "implicit",
+          "matched_against": "Chat Assistant for Healthcare FAQs",
+          "evidence": "Built an intent-classification chatbot using spaCy and Rasa for a clinic's patient queries",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Any backend language",
+          "tier": "partial",
+          "matched_against": "Python",
+          "evidence": "Python",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "OAuth or API key auth",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Webhook handling",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Third-party SDK integration",
+          "tier": "partial",
+          "matched_against": "spaCy",
+          "evidence": "spaCy",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "API documentation writing",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate scored 0 points for CGPA as it was not found on the resume.",
+        "Strong relevance was noted through deployed systems and professional experience as an AI Engineer.",
+        "Lower mechanical scores were offset by a holistic adjustment recognizing strong practical experience."
+      ],
+      "anomalies": [],
+      "error": null
+    }
+  ],
+  "reserve": [],
+  "excluded": [
+    {
+      "rank": 3,
+      "doc_id": "sample2",
+      "file": "sample2.xml",
+      "parse_quality": "Partial",
+      "score": 24.25,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 6.25,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (4 total): 3 missing, 1 partial \u2014 credit-weighted 0.50/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 6.25/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 0.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 4 missing \u2014 credit-weighted 0.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.4 meets minimum 6.0 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 8.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate shows relevant integration skills using MQTT but lacks depth signals and professional experience.",
+          "meta": {
+            "justification": "The candidate shows relevant integration skills using MQTT but lacks depth signals and professional experience.",
+            "signals": [
+              "MQTT implementation",
+              "IoT system building"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "While the CGPA is perfect, the low skill match and lack of professional experience are appropriate for the role requirements.",
+          "meta": {
+            "reason": "While the CGPA is perfect, the low skill match and lack of professional experience are appropriate for the role requirements.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "REST API consumption",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Postman or Swagger",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "JSON handling",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Any backend language",
+          "tier": "partial",
+          "matched_against": "C++",
+          "evidence": "C++",
+          "credit": 0.5,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "OAuth or API key auth",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Webhook handling",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Third-party SDK integration",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "API documentation writing",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate achieved full points for CGPA, meeting the minimum requirement.",
+        "Skill matching was weak, with 3 missing required skills and 4 missing preferred skills.",
+        "The assessment noted relevant integration skills using MQTT but highlighted a lack of depth and professional experience."
+      ],
+      "anomalies": [
+        "malformed_email:'rohit.verma@@bad-email'",
+        "graduation_year_out_of_range:2042"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "doc_id": "sample3",
+      "file": "sample3.unsupported",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:unsupported file extension: .unsupported"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "doc_id": "sample4_empty",
+      "file": "sample4_empty.txt",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:extracted text is empty"
+      ],
+      "error": null
+    }
+  ]
+}

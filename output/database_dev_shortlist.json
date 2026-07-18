@@ -1,0 +1,524 @@
+{
+  "jd_id": "database_dev",
+  "role": "Database Developer",
+  "slots": 3,
+  "cutoff": 40.0,
+  "candidates_evaluated": 5,
+  "slots_filled_note": null,
+  "shortlist": [
+    {
+      "rank": 1,
+      "doc_id": "sample1",
+      "file": "sample1.txt",
+      "parse_quality": "Partial",
+      "score": 44.75,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 18.75,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (6 total): 1 exact, 5 implicit \u2014 credit-weighted 2.25/6 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 18.75/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 5.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 1 exact, 3 missing \u2014 credit-weighted 1.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 5.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.32 [normalized from percentage] meets minimum 6.0 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 11.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate demonstrates strong backend and deployment skills, with the Chat App utilizing Redis for data tracking.",
+          "meta": {
+            "justification": "The candidate demonstrates strong backend and deployment skills, with the Chat App utilizing Redis for data tracking.",
+            "signals": [
+              "Real-time chat application",
+              "WebSockets and Redis",
+              "Software Engineer, Acme Corp"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The candidate demonstrates strong performance across skills, CGPA, and relevant project experience, aligning well with the role requirements.",
+          "meta": {
+            "reason": "The candidate demonstrates strong performance across skills, CGPA, and relevant project experience, aligning well with the role requirements.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "MySQL or PostgreSQL",
+          "tier": "exact",
+          "matched_against": "PostgreSQL",
+          "evidence": "Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Schema design",
+          "tier": "implicit",
+          "matched_against": "PostgreSQL",
+          "evidence": "PostgreSQL",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Database normalisation",
+          "tier": "implicit",
+          "matched_against": "PostgreSQL",
+          "evidence": "PostgreSQL",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Query writing",
+          "tier": "implicit",
+          "matched_against": "PostgreSQL",
+          "evidence": "PostgreSQL",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Query optimisation",
+          "tier": "implicit",
+          "matched_against": "PostgreSQL",
+          "evidence": "PostgreSQL",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        },
+        {
+          "jd_skill": "Basic indexing",
+          "tier": "implicit",
+          "matched_against": "PostgreSQL",
+          "evidence": "PostgreSQL",
+          "credit": 0.25,
+          "flagged": true,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "MongoDB or Redis",
+          "tier": "exact",
+          "matched_against": "Redis",
+          "evidence": "Real-time chat application using WebSockets and Redis for presence tracking.",
+          "credit": 1.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Stored procedures",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Aggregation pipelines",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "ERD design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate achieved full points for CGPA, meeting the minimum requirement.",
+        "Skills were partially matched, with 1 exact and 5 implicit required skills identified.",
+        "Strong backend and deployment skills were noted, including the utilization of Redis in a project."
+      ],
+      "anomalies": [],
+      "error": null
+    },
+    {
+      "rank": 2,
+      "doc_id": "sample2",
+      "file": "sample2.xml",
+      "parse_quality": "Partial",
+      "score": 13.0,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 0.0,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (6 total): 6 missing \u2014 credit-weighted 0.00/6 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 0.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 4 missing \u2014 credit-weighted 0.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 10.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA 8.4 meets minimum 6.0 -> full 10.0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 3.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "The candidate only provides a single, low-complexity project without any professional experience or explicit database usage.",
+          "meta": {
+            "justification": "The candidate only provides a single, low-complexity project without any professional experience or explicit database usage.",
+            "signals": [
+              "IoT Weather Station",
+              "ESP32 and MQTT"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The mechanical scoring accurately reflects the candidate's strong academic performance but weak technical fit for a Database Developer.",
+          "meta": {
+            "reason": "The mechanical scoring accurately reflects the candidate's strong academic performance but weak technical fit for a Database Developer.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "MySQL or PostgreSQL",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Schema design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Database normalisation",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Query writing",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Query optimisation",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Basic indexing",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "MongoDB or Redis",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Stored procedures",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Aggregation pipelines",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "ERD design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "The candidate scored full points for CGPA, demonstrating strong academic performance.",
+        "Zero points were awarded for required and preferred skills due to all skills being missing.",
+        "Project experience was low, consisting only of a single, low-complexity project without explicit database usage."
+      ],
+      "anomalies": [
+        "malformed_email:'rohit.verma@@bad-email'",
+        "graduation_year_out_of_range:2042"
+      ],
+      "error": null
+    },
+    {
+      "rank": 3,
+      "doc_id": "res2",
+      "file": "res2.pdf",
+      "parse_quality": "Partial",
+      "score": 10.0,
+      "confidence": "Medium",
+      "human_review_required": false,
+      "breakdown": {
+        "required_skills": {
+          "points": 0.0,
+          "max_points": 50.0,
+          "source": "python",
+          "detail": "required skills (6 total): 6 missing \u2014 credit-weighted 0.00/6 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/50.0 points",
+          "meta": null
+        },
+        "preferred_skills": {
+          "points": 0.0,
+          "max_points": 20.0,
+          "source": "python",
+          "detail": "preferred skills (4 total): 4 missing \u2014 credit-weighted 0.00/4 (exact/synonym=full credit, partial=half, implicit=quarter, missing=zero) -> 0.0/20.0 points",
+          "meta": null
+        },
+        "cgpa": {
+          "points": 0.0,
+          "max_points": 10.0,
+          "source": "python",
+          "detail": "CGPA not found on resume -> 0 points.",
+          "meta": null
+        },
+        "projects_experience": {
+          "points": 10.0,
+          "max_points": 15.0,
+          "source": "llm",
+          "detail": "Strong deployment signals and professional experience offset the lack of explicit database focus in the projects.",
+          "meta": {
+            "justification": "Strong deployment signals and professional experience offset the lack of explicit database focus in the projects.",
+            "signals": [
+              "deployed on Raspberry Pi",
+              "clinic's patient queries",
+              "AI Engineer - VisionEdge Labs",
+              "Data Science Intern - Quantica Insights"
+            ],
+            "fallback_used": false
+          }
+        },
+        "holistic_adjustment": {
+          "points": 0.0,
+          "max_points": 5.0,
+          "source": "llm",
+          "detail": "The mechanical scoring accurately reflects the conflict between strong professional experience and missing core database skills.",
+          "meta": {
+            "reason": "The mechanical scoring accurately reflects the conflict between strong professional experience and missing core database skills.",
+            "fallback_used": false
+          }
+        }
+      },
+      "required_skill_matches": [
+        {
+          "jd_skill": "MySQL or PostgreSQL",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Schema design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Database normalisation",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Query writing",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Query optimisation",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Basic indexing",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "preferred_skill_matches": [
+        {
+          "jd_skill": "MongoDB or Redis",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Stored procedures",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "Aggregation pipelines",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        },
+        {
+          "jd_skill": "ERD design",
+          "tier": "missing",
+          "matched_against": null,
+          "evidence": null,
+          "credit": 0.0,
+          "flagged": false,
+          "note": null
+        }
+      ],
+      "reasoning_bullets": [
+        "Missing all required and preferred skills resulted in zero points for technical competencies.",
+        "Projects and experience were partially scored due to strong deployment signals and professional experience.",
+        "The holistic adjustment reflects the conflict between strong professional experience and missing core database skills."
+      ],
+      "anomalies": [],
+      "error": null
+    }
+  ],
+  "reserve": [],
+  "excluded": [
+    {
+      "rank": null,
+      "doc_id": "sample3",
+      "file": "sample3.unsupported",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:unsupported file extension: .unsupported"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "doc_id": "sample4_empty",
+      "file": "sample4_empty.txt",
+      "parse_quality": "Failed",
+      "score": null,
+      "confidence": null,
+      "human_review_required": true,
+      "breakdown": null,
+      "required_skill_matches": [],
+      "preferred_skill_matches": [],
+      "reasoning_bullets": [],
+      "anomalies": [
+        "parse_failed:extracted text is empty"
+      ],
+      "error": null
+    }
+  ]
+}

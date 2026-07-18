@@ -1,0 +1,24 @@
+Priya Sharma
+Email: priya.sharma1999@gmail.com
+Phone: +91-9876543210
+
+Education
+B.E. in Computer Science, Indian Institute of Technology (mock), 2021
+Scored 79% in B.E. Computer Science.
+
+Skills
+Python, Java, React, Docker, Kubernetes, PostgreSQL, AWS
+
+Projects
+Resume Parser - Built a resume parsing tool using spaCy and FastAPI to extract structured fields from unstructured text.
+Chat App - Real-time chat application using WebSockets and Redis for presence tracking.
+
+Experience
+Software Engineer, Acme Corp, Jun 2021 - Present
+Backend Intern, Beta Labs, Jan 2021 - May 2021
+
+Certifications
+AWS Certified Solutions Architect - Associate
+Certified Kubernetes Administrator
+
+LinkedIn: linkedin.com/in/priyasharma
