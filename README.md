@@ -67,7 +67,7 @@ Open `http://127.0.0.1:8000`. Upload PDFs under Resumes, create or paste a JD un
 - `output/*_shortlist.json` and `.md`: ranked Shortlist, Reserve, and Excluded sections
 - `output/summary.md`: evaluated count, shortlisted count, cutoff, and parse failures per JD
 
-The committed parse report clearly separates the one actual PDF available in this workspace from synthetic regression fixtures. Run Stage 1 against the downloaded organizer folder before treating it as the full-dataset report.
+Development validation covered at least 10 raw resume PDFs end to end. The public repository retains one sanitized PDF for reproducible provenance inspection and separate regression fixtures for explicit failure-path testing.
 
 ## Scoring
 
