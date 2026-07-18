@@ -4,6 +4,7 @@ docling==2.113.0
 fastapi==0.139.2
 httpx==0.28.1
 lxml==6.1.1
+markdown-it-py==4.0.0
 pydantic==2.13.4
 PyMuPDF==1.28.0
 python-multipart==0.0.32

@@ -1,6 +1,7 @@
 import { chromium } from "@playwright/test";
 import { readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
+import { renderMarkdown } from "./render-markdown.mjs";
 
 const root = resolve(process.cwd(), "..");
 const outputDir = resolve(root, "output");
@@ -20,7 +21,7 @@ const screenshotNames = (await readdir(screenshotDir))
 const outputSections = await Promise.all(
   outputNames.map(async (name) => {
     const content = await readFile(resolve(outputDir, name), "utf8");
-    return `<section class="document"><h2>${escapeHtml(name)}</h2><pre>${escapeHtml(content)}</pre></section>`;
+    return `<section class="document"><h2 class="file-title">${escapeHtml(name)}</h2><article>${renderMarkdown(content)}</article></section>`;
   }),
 );
 
@@ -46,7 +47,19 @@ const html = `<!doctype html>
   h2 { margin: 0 0 12px; color: #342c7d; font-size: 18px; }
   .subtitle { margin-top: 12px; color: #596174; font-size: 16px; }
   .document { page-break-before: always; }
-  pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 8px/1.35 "DejaVu Sans Mono", monospace; }
+  article h1 { font-size:22px; margin:0 0 14px; }
+  article h2 { font-size:17px; margin:18px 0 8px; }
+  article h3 { font-size:14px; margin:15px 0 7px; }
+  .file-title { padding-bottom:8px; border-bottom:2px solid #c8c4ff; }
+  p, li { font-size:9.5px; line-height:1.45; }
+  ul, ol { padding-left:19px; }
+  table { width:100%; border-collapse:collapse; margin:10px 0 15px; font-size:8px; }
+  th, td { border:1px solid #d9dce7; padding:4px; text-align:left; vertical-align:top; }
+  th { background:#efefff; color:#342c7d; }
+  code { background:#f0f1f5; border-radius:3px; padding:1px 3px; font:8.5px "DejaVu Sans Mono",monospace; }
+  pre { padding:8px; background:#f5f6f8; white-space:pre-wrap; overflow-wrap:anywhere; font:8px/1.4 "DejaVu Sans Mono",monospace; }
+  pre code { padding:0; background:transparent; }
+  blockquote { margin:10px 0; padding:6px 10px; border-left:3px solid #8e86e8; background:#f5f4ff; }
   .screenshot { page-break-before: always; }
   .screenshot img { display: block; max-width: 100%; max-height: 245mm; margin: 0 auto; object-fit: contain; }
 </style>

@@ -1,6 +1,7 @@
 import { chromium } from "@playwright/test";
 import { copyFile, mkdir, readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
+import { renderMarkdown } from "./render-markdown.mjs";
 
 const root = resolve(process.cwd(), "..");
 const uploadDir = resolve(root, "docs/portal-uploads");
@@ -15,8 +16,10 @@ async function writePdf(path, title, sections) {
   const page = await browser.newPage();
   const body = sections
     .map(
-      ({ heading, content }, index) =>
-        `<section class="${index ? "new-page" : ""}"><h2>${escapeHtml(heading)}</h2><pre>${escapeHtml(content)}</pre></section>`,
+      ({ heading, content, image }, index) =>
+        `<section class="${index ? "new-page" : ""}"><h2 class="file-title">${escapeHtml(heading)}</h2>${
+          image ? `<img class="screenshot" src="${image}" alt="${escapeHtml(heading)}">` : `<article>${renderMarkdown(content)}</article>`
+        }</section>`,
     )
     .join("\n");
   await page.setContent(`<!doctype html>
@@ -24,8 +27,19 @@ async function writePdf(path, title, sections) {
       @page { size: A4; margin: 16mm; }
       body { color:#172033; font-family:Arial,sans-serif; }
       h1 { font-size:25px; margin:0 0 22px; }
-      h2 { color:#342c7d; font-size:17px; margin:0 0 12px; }
-      pre { white-space:pre-wrap; overflow-wrap:anywhere; font:9px/1.45 "DejaVu Sans Mono",monospace; }
+      h2 { color:#342c7d; font-size:17px; margin:18px 0 8px; }
+      h3 { color:#27304a; font-size:14px; margin:16px 0 7px; }
+      .file-title { margin:0 0 16px; padding-bottom:8px; border-bottom:2px solid #c8c4ff; }
+      p, li { font-size:10px; line-height:1.5; }
+      ul, ol { padding-left:20px; }
+      table { width:100%; border-collapse:collapse; margin:10px 0 16px; font-size:8.5px; }
+      th, td { border:1px solid #d9dce7; padding:5px; text-align:left; vertical-align:top; }
+      th { background:#efefff; color:#342c7d; }
+      code { background:#f0f1f5; border-radius:3px; padding:1px 3px; font:9px "DejaVu Sans Mono",monospace; }
+      pre { padding:9px; background:#f5f6f8; white-space:pre-wrap; overflow-wrap:anywhere; font:8.5px/1.45 "DejaVu Sans Mono",monospace; }
+      pre code { padding:0; background:transparent; }
+      blockquote { margin:10px 0; padding:6px 10px; border-left:3px solid #8e86e8; background:#f5f4ff; }
+      .screenshot { display:block; max-width:100%; max-height:238mm; margin:0 auto; object-fit:contain; }
       .new-page { page-break-before:always; }
     </style></head><body><h1>${escapeHtml(title)}</h1>${body}</body></html>`);
   await page.pdf({
@@ -60,7 +74,19 @@ const outputs = await Promise.all(
     content: await readFile(resolve(outputDir, name), "utf8"),
   })),
 );
-await writePdf(resolve(uploadDir, "Sample_Output.pdf"), "Sample Shortlisting Output", outputs);
+const screenshotDir = resolve(root, "docs/screenshots");
+const screenshotNames = (await readdir(screenshotDir)).filter((name) => name.endsWith(".png")).sort();
+const screenshots = await Promise.all(
+  screenshotNames.map(async (name) => ({
+    heading: `Interface screenshot: ${name}`,
+    image: `data:image/png;base64,${(await readFile(resolve(screenshotDir, name))).toString("base64")}`,
+  })),
+);
+await writePdf(
+  resolve(uploadDir, "Sample_Output.pdf"),
+  "Sample Shortlisting Output and Interface Screenshots",
+  [...outputs, ...screenshots],
+);
 
 await copyFile(resolve(root, "requirements.txt"), resolve(uploadDir, "requirements.txt"));
 await browser.close();
