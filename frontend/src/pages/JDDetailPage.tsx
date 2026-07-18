@@ -90,11 +90,11 @@ export function JDDetailPage() {
   if (!jd && !error) return <PageLoader label="Loading job description" />;
 
   return (
-    <main className="mx-auto w-full max-w-[1600px] px-5 py-8 sm:px-6 sm:py-10">
-      <div className="grid min-w-0 items-start gap-6 lg:grid-cols-[330px_minmax(0,1fr)] xl:grid-cols-[360px_minmax(0,1fr)]">
+    <main className="w-full">
+      <div className="grid min-w-0 items-start lg:min-h-[calc(100vh-64px)] lg:grid-cols-[350px_minmax(0,1fr)] xl:grid-cols-[390px_minmax(0,1fr)]">
         {jd && (
-          <aside className="min-w-0 lg:sticky lg:top-20">
-            <div className="overflow-hidden rounded-lg border-2 border-ink bg-surface-raised shadow-[5px_5px_0_var(--color-lavender)]">
+          <aside className="min-w-0 border-b border-border bg-surface-raised lg:sticky lg:top-16 lg:h-[calc(100vh-64px)] lg:overflow-y-auto lg:border-b-0 lg:border-r">
+            <div>
               <div className="bg-peach-soft/60 px-5 py-5">
                 <p className="text-xs font-extrabold text-peach-ink">{jd.id}</p>
                 <h1 className="mt-2 text-2xl font-extrabold leading-tight text-ink">{jd.role}</h1>
@@ -134,7 +134,7 @@ export function JDDetailPage() {
           </aside>
         )}
 
-        <section className="min-w-0">
+        <section className="min-w-0 px-5 py-8 sm:px-7 sm:py-10 xl:px-10">
           <PageHeader
             eyebrow={jd?.role ?? "Role"}
             title="Candidate pool"
