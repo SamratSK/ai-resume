@@ -42,6 +42,8 @@ Open `http://127.0.0.1:8000`. Upload PDFs under Resumes, create or paste a JD un
 - `output/*_shortlist.json` and `.md`: ranked Shortlist, Reserve, and Excluded sections
 - `output/summary.md`: evaluated count, shortlisted count, cutoff, and parse failures per JD
 
+The committed parse report clearly separates the one actual PDF available in this workspace from synthetic regression fixtures. Run Stage 1 against the downloaded organizer folder before treating it as the full-dataset report.
+
 ## Scoring
 
 All weights live in `scoring_config.yaml`: required skills 50, preferred skills 20, CGPA 10, projects/experience 15, and a bounded holistic adjustment of -5 to +5. Skill tiers are exact/synonym 100%, partial 50%, implicit 25%, missing 0%. Stage 2 is deterministic through temperature-zero calls plus a content-addressed disk cache.
