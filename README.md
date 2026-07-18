@@ -91,19 +91,19 @@ The PNG files are written to `docs/screenshots/`.
 
 ## Submission Checklist
 
-- [x] Raw-folder Stage 1 CLI and importable extraction pipeline
-- [x] Five supplied JDs (30 total slots) plus arbitrary JD CRUD
-- [x] Ranked JSON and Markdown output with confidence, reasoning, parse flags, Reserve, and Excluded
-- [x] Parse quality report with failed parses retained
-- [x] Pinned `requirements.txt`
-- [x] Sample output files
-- [x] AI Usage Log (under 200 words)
-- [x] Four-part Design Decisions document
-- [x] Bonus A: web UI and CSV export
-- [x] Bonus B: automatic low-yield OCR retry
-- [x] Bonus C: pasted unstructured JD parsing
-- [x] Bonus D: three-run byte-identical stability script
-- [x] PDF provenance highlighting and per-JD hybrid RAG chat
-- [x] Reproducible screenshots under `docs/screenshots/`
+- Raw-folder Stage 1 CLI and importable extraction pipeline
+- Five supplied JDs (30 total slots) plus arbitrary JD CRUD
+- Ranked JSON and Markdown output with confidence, reasoning, parse flags, Reserve, and Excluded
+- Parse quality report with failed parses retained
+- Pinned `requirements.txt`
+- Sample output files
+- AI Usage Log (under 200 words)
+- Four-part Design Decisions document
+- Bonus A: web UI and CSV export
+- Bonus B: automatic low-yield OCR retry
+- Bonus C: pasted unstructured JD parsing
+- Bonus D: three-run byte-identical stability script
+- PDF provenance highlighting and per-JD hybrid RAG chat
+- Reproducible screenshots under `docs/screenshots/`
 
 See [DESIGN_DECISIONS.md](DESIGN_DECISIONS.md), [AI_USAGE_LOG.md](AI_USAGE_LOG.md), and [parse_quality_report.md](parse_quality_report.md) for the required submission notes.
