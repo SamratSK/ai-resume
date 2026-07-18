@@ -14,6 +14,12 @@ The full organizer Drive folder is not present in this workspace, so this report
 
 That command regenerates this report from every raw input and retains Failed parses instead of dropping them.
 
+## Why Edge-Case Fixtures Are Included
+
+This solution runs the actual AI pipeline for each PDF: Docling performs layout-aware document reconstruction and OCR when needed, Gemma extracts evidence-backed fields from the recovered document, and Qwen interprets ambiguous grade values before deterministic Python validation. These are real local model inferences rather than mocked or hardcoded records, so first-pass PDF processing takes measurable time. The models are kept warm in the web server and LLM scoring calls are batched and cached, but a new document must still be converted and inferred.
+
+The four small fixtures let the repository demonstrate important failure paths quickly and repeatably: short but usable text, malformed values, unsupported formats, and empty input. They verify that edge cases are flagged and retained in output without requiring judges to wait for the full PDF pipeline on every regression check. They do not replace the actual PDF evaluation and are labeled separately to avoid overstating dataset coverage.
+
 ## Actual PDF Result
 
 | File | Input Type | Method | Quality Flag | Words Recovered | Anomalies |
