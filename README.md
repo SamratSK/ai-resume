@@ -2,6 +2,31 @@
 
 An evidence-backed two-stage pipeline that extracts raw resumes, scores every candidate against any JD, and serves a recruiter UI with shortlist explanations, PDF source highlights, CSV export, and per-JD hybrid RAG chat.
 
+## How This Differs From a Generic Resume Ranker
+
+This is not a prompt that sends a resume and JD to an LLM and asks for a score. The system separates document recovery, extraction, deterministic scoring, and explanation so every decision can be inspected.
+
+- **It shows its evidence.** Extracted fields retain verbatim quotes. PDF evidence is matched back to page geometry, rendered as labeled bounding boxes, and located directly from the field panel.
+- **Python owns the decision.** Grade conversion, skill credits, score weights, structured filters, slot limits, and Shortlist/Reserve/Excluded placement are calculated in Python. LLM judgments are bounded inputs, not the final authority.
+- **Bad inputs stay visible.** Partial parses cap score confidence. Failed parses receive no fabricated score, remain in the output, and are routed to human review.
+- **Matching is tiered instead of binary.** Exact and synonym matches earn full credit; partial and implicit evidence earn reduced credit and stay visibly flagged.
+- **Chat uses the right retrieval path.** Exact questions run against structured JSON; qualitative questions use JD-scoped vector retrieval; hybrid questions filter first and retrieve second. Every answer names its source resumes.
+- **The result is reproducible.** Temperature-zero local models and content-addressed caches produce byte-identical output across the included three-run stability test.
+
+## Product Views
+
+### Split Candidate Workspace
+
+The JD description and candidate chat remain available in the left pane while ranked Shortlisted, Reserve, and Excluded candidates stay visible in the candidate pool.
+
+![Split candidate workspace showing JD requirements and ranked candidates](docs/screenshots/06-job-candidate-pool.png)
+
+### Evidence-First Resume Review
+
+Every extracted field can reveal its confidence and evidence, then locate and pulse the corresponding labeled region in the original PDF.
+
+![Resume detail with extracted fields and labeled PDF evidence](docs/screenshots/05-resume-evidence.png)
+
 ## Quick Start
 
 Prerequisites: Python 3.11+, Node 20+, `uv`, an NVIDIA GPU for the supplied local model setup, and `llama-server` from llama.cpp.
@@ -47,17 +72,6 @@ The committed parse report clearly separates the one actual PDF available in thi
 ## Scoring
 
 All weights live in `scoring_config.yaml`: required skills 50, preferred skills 20, CGPA 10, projects/experience 15, and a bounded holistic adjustment of -5 to +5. Skill tiers are exact/synonym 100%, partial 50%, implicit 25%, missing 0%. Stage 2 is deterministic through temperature-zero calls plus a content-addressed disk cache.
-
-## How This Differs From a Generic Resume Ranker
-
-This is not a prompt that sends a resume and JD to an LLM and asks for a score. The system separates document recovery, extraction, deterministic scoring, and explanation so each layer can be inspected independently.
-
-- **It shows its evidence.** Extracted fields retain verbatim quotes. For PDFs, those quotes are fuzzy-matched back to Docling page geometry, rendered as labeled bounding boxes, and can be located from the field panel.
-- **Python owns the decision.** Grade conversion, skill credits, score weights, structured chat filters, slot limits, and Shortlist/Reserve/Excluded placement are calculated in Python. LLM judgments are bounded inputs, not the final authority.
-- **Bad inputs stay visible.** Partial parses cap score confidence. Failed parses receive no fabricated score, remain in the output, and are explicitly routed to human review.
-- **Matching is tiered instead of binary.** Exact and synonym matches earn full credit; partial and implicit evidence earn reduced credit and remain visibly flagged.
-- **Chat uses the right retrieval path.** Exact questions such as CGPA filters run against structured JSON; qualitative questions use JD-scoped vector retrieval; hybrid questions filter first and then retrieve. Every answer names its source resumes.
-- **The result is reproducible.** Temperature-zero local models and content-addressed caches produce byte-identical output across the included three-run stability test.
 
 ## Verification
 
