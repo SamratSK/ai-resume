@@ -1,5 +1,16 @@
 # InternLoom Submission Deliverables
 
+## Portal Uploads
+
+Upload these four files directly:
+
+| Portal Field | File |
+|---|---|
+| Design Decision Document | `docs/portal-uploads/Design_Decisions.pdf` |
+| Requirements | `docs/portal-uploads/requirements.txt` |
+| Sample Output File | `docs/portal-uploads/Sample_Output.pdf` |
+| Parse Quality Report | `docs/portal-uploads/Parse_Quality_Report.pdf` |
+
 ## Required
 
 | Deliverable | Path |
